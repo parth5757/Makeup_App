@@ -10,5 +10,5 @@
 } */
  
 body{
-    @apply font-base text-text-dark bg-text-light-grey;
+    @apply font-base text-dark bg-light-grey;
 }

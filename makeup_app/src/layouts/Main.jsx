@@ -1,15 +1,16 @@
 import React from 'react';
 import Navbar from './../components/Navbar'
-
+import Footer from './../components/Footer'
 
 const Main = () => {
     return (
-        <div className="container mx-auto">
+        <>
             <Navbar />
-            <div className='text-3xl font-bold underline bg-green-600'>
+            <div className="container mx-auto  text-3xl font-bold underline bg-green">
                 <p>Main</p>
             </div>
-        </div>
+            <Footer />
+        </>
     )
 }
 
