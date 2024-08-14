@@ -10,14 +10,12 @@ module.exports = {
         'krona': "'Krona One', sans-serif",
       },
       colors: {
-        text:{
-          dark:"#0c080B",
-          green:"#1E3329",
-          yellow:"#FFD479",
-          'dark-grey':"#B8B8B8",
-          'light-grey':"#ECECECa",
-          light: "#FAFAFA"
-        },
+        dark:"#0c080B",
+        green:"#1E3329",
+        yellow:"#FFD479",
+        'dark-grey':"#B8B8B8",
+        'light-grey':"#ECECEC",
+        light: "#FAFAFA"
       },
     },
   },
