@@ -10,5 +10,5 @@
 } */
  
 body{
-    font-family: 'Korna One', sans-serif;
+    @apply font-base text-text-dark bg-text-light-grey;
 }

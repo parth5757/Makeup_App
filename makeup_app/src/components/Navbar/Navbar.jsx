@@ -4,18 +4,19 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-3">
+    <nav className="font-krona flex justify-between p-3">
         {/* Brand */}
-        <a className="navbar__brand" href="/">
+        <a className="navbar__brand text-2xl" href="/">
           Welly
         </a>  
-        <div className='flex'>
-          <a href="/home">Home</a>
-          <a href="/search">Search</a>
-          <a href="/about">About</a>
-        </div>
+        <div className='flex items-end'>
+          <a className="text-sm mr-7" href="/home">Home</a>
+          <a className="text-sm mr-7" href="/search">Search</a>
+          <a className="text-sm mr-7" href="/about">About</a>
+        
 
         {/* Icons */}
+        {/* TODOs add colors to icons {text-dark} */}
         <div className='flex'>    
           {/* Liked */}
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -27,7 +28,8 @@ const Navbar = () => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
           </svg>
         </div>
-    </div>
+        </div>
+    </nav>
   )
 }
 
